@@ -1,5 +1,9 @@
-nota1 = 7
-nota2 = 8
+nome = input('Insira seu nome:')
+nota1 = float(input('Sua primeira nota:'))
+nota2 = float(input('Sua segunda nota:'))
+
+print(f'Olá{nome} suas notas foram:')
+print(nota1, 'e', nota2)
 
 #Definição da média da escola
 def verificar_aprovacao():
